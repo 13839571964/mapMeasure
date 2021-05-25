@@ -1,0 +1,4 @@
+{
+  "presets": ["es2015", "false"],
+  "plugins": ["transform-object-rest-spread"]
+}
