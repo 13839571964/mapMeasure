@@ -1,4 +1,6 @@
 {
-  "presets": ["es2015", "false"],
-  "plugins": ["transform-object-rest-spread"]
+  "presets": [
+    ["es2015", { "modules": false }]   //依赖ES5模块转换
+  ],
+  "plugins": ["transform-object-rest-spread"] //转换工具
 }
